@@ -8,6 +8,8 @@ public class HosokuApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HosokuApplication.class, args);
+		System.out.println("App started .... ");
+		TcpServer.start();
 	}
 
 }
